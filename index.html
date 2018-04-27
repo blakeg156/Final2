@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Exam 2</title>
+            <link rel="stylesheet" type="text/css" href="styles/Exam2.css" />
+            <script src="javascript/Exam2.js"></script>
+        </head>
+        
+        <body>
+            <select onchange="MenuChoice();" id="menu">
+                <option>Select Option</option>
+                <option value="selcatlist"> Category List</option>
+                <option value="selnewcat"> Create New Category</option>
+                <option value="selupcatdes"> Update Category Description</option>
+                <option value="seldelcat"> Delete Existing Category</option>
+                <option value="selboutme"> About Me</option>
+            </select>
+                
+            <section id="section1" class="section1">
+                <h1>Category List</h1>
+                <hr><label id="result1">The Category List will display here.</label>
+                <hr>
+                <button onclick="GetCategoryList()" id="catlist"> Display List </button>
+            </section>
+            
+            </select>
+            <section id="section2" class="section2">
+                <h1>Create New Category</h1>
+                <hr>
+                <label>Please enter a Category Name: </label>
+                <input type="text" id="catname">
+                <br>
+                <label>Please enter Category Description: </label>
+                <input type="text" id="catdes">
+                <br>
+                <button onclick="CreateCategory()" id="newcust"> Create Category </button>
+                <hr>
+                <label id="result2">The operation's result will display here.</label>
+                <hr>
+            </section>
+            
+            <section id="section3" class="section3">
+                <h1>Update Category Description</h1>
+                <hr>
+                <label> Please enter Customer ID: </label>
+                <input type="number" id="custid">
+                <br>
+                <label>Please enter Category Description: </label>
+                <input type="text" id="catdescription">
+                <br>
+                <button onclick="UpdateCategoryDescription()" id="upcat"> Update Category Description </button>
+                <br>
+                <hr>
+                <label id="result3">The operation's result will display here.</label>
+                <hr>
+            </section>
+            
+            <section id="section4" class="section4">
+                <h1>Delete Existing Category</h1>
+                <hr>
+                <label>Please enter Customer ID: </label>
+                <input type="number" id="customernum">
+                <br>
+                <button onclick="DeleteCategory();" id="delcategory"> Delete Category </button>
+                <br>
+                <hr>
+                <label id="result4">The operation's result will display here.</label>
+                <hr>
+            </section>
+            
+            <section id="section5" class="section5">
+                <h1> About Me </h1>
+                <hr>
+                Name: Blake Gallegos Rosales
+                <br>
+                Age: 20
+                <br>
+                School: UAB
+                <br>
+                Class: Junior
+                <br>
+                Favorite food: Chicken
+            </section>
+            
+            
+        </body>
+    </html>

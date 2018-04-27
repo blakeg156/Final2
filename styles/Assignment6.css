@@ -1,0 +1,7 @@
+.example {font-style: italic; color: red; }
+section.section1 {background-color: #DCDCDC; visibility: hidden; position: absolute; width: 600px}
+section.section2 {background-color: #33FF83; visibility: hidden; position: relative; width: 600px}
+section.section3 {background-color: #339FFF; visibility: hidden; position: absolute; width: 600px ;top: 100px}
+#result1 {background-color: #FFFFCC; }
+#result2 {background-color: #FFFFCC; }
+#result3 {background-color: #FFFFCC; }

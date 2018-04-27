@@ -1,0 +1,10 @@
+section.section1 {background-color: #FFFFCC; visibility: hidden; position: absolute; width: 600px}
+section.section2 {background-color: #DCDCDC; visibility: hidden; position: relative; width: 600px}
+footer{position: inherit}
+#anon1 {
+    width: 600px; height: 600px;
+    }
+    
+#anon2 {
+    width: 600px; height: 600px;
+    }

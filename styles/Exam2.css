@@ -1,0 +1,10 @@
+section.section1 {background-color: #DCDCDC; visibility: hidden; position: absolute; width: 600px}
+section.section2 {background-color: #33FF83; visibility: hidden; position: absolute; width: 600px ;top: 30px}
+section.section3 {background-color: #339FFF; visibility: hidden; position: absolute; width: 600px ;top: 30px}
+section.section4 {background-color: #F08080; visibility: hidden; position: absolute; width: 600px ;top: 30px}
+section.section5 {background-color: #FFFFCC; visibility: hidden; position: absolute; width: 600px ;top: 30px}
+#result1 {background-color: #FFFFCC; }
+#result2 {background-color: #FFFFCC; }
+#result3 {background-color: #FFFFCC; }
+#result4 {background-color: #FFFFCC; }
+#section5 {background-color: #FFFFCC; }
